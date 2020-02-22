@@ -1,0 +1,12 @@
+{
+  "name": "generator-webApp",
+  "version": "1.0.0",
+  "description": "web app for snow",
+  "main": "index.js",
+  "repository": "https://github.com/kluslulu/create-h5-app.git",
+  "author": "huyue",
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^4.5.0"
+  }
+}

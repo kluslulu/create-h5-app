@@ -1,0 +1,100 @@
+// @import './transition.scss';
+
+/* Global scss */
+@import '//at.alicdn.com/t/font_1503609_h2j77vp2l5.css';
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  background-color: white;
+}
+
+html {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a,
+a:focus,
+a:hover {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+label {
+  font-weight: 700;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.van-tabs__line {
+  background-color: #3567FC !important;
+}
+
+.van-tab {
+  color: #000 !important;
+  font-weight: 600;
+  font-size: 12px !important;
+}
+
+.van-password-input__security li {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+.agree-box {
+  align-items: flex-start;
+}
+
+.van-checkbox__icon {
+  width: 15px;
+  height: 15px;
+
+  .van-icon {
+    width: 100% !important;
+    height: 100% !important;
+    font-size: 12px !important;
+    line-height: 15px !important;
+  }
+}
+
+ul,
+ol {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0;
+}
