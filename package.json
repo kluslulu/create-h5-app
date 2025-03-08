@@ -7,6 +7,6 @@
   "author": "huyue",
   "license": "MIT",
   "dependencies": {
-    "yeoman-generator": "^4.5.0"
+    "yeoman-generator": "^5.0.0"
   }
 }
